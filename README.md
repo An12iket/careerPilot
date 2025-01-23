@@ -2,11 +2,16 @@
 
 CareerPilot is an AI-powered career path advisor application. It helps users navigate their career journey by providing personalized recommendations based on their skills, experiences, and goals. The application supports user registration, login, and allows users to view their profiles.
 
+---
+
 ## Features
 - **User Authentication**: Sign up and log in with email and password.
 - **JWT Authentication**: Secure token-based authentication for user sessions.
 - **Profile Management**: Users can view their profile after logging in.
 - **Personalized Career Path**: AI-powered suggestions for career growth based on user inputs (in future versions).
+- **Validation**: Input validation using **Zod** for robust and error-free handling.
+
+---
 
 ## Tech Stack
 - **Frontend**: React.js (for UI)
@@ -14,7 +19,10 @@ CareerPilot is an AI-powered career path advisor application. It helps users nav
 - **Database**: PostgreSQL with Prisma ORM
 - **Authentication**: JWT (JSON Web Token)
 - **Password Hashing**: bcryptjs
+- **Validation**: Zod (for schema validation)
 - **Hosting**: AWS EC2
+
+---
 
 ## Installation
 
