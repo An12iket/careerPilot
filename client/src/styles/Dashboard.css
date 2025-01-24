@@ -6,6 +6,10 @@
     font-family: Arial, sans-serif;
   }
   
+.career_btn:hover{
+    background-color: green;
+  }
+
   h1 {
     color: #333;
   }
@@ -19,6 +23,7 @@
   }
   
   .logout-button {
+    margin-top: 15px;
     padding: 10px 20px;
     color: white;
     background-color: #007bff;
