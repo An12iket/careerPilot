@@ -76,4 +76,15 @@ body {
       font-size: 14px;
     }
   }
+
+  .signup-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .signup-link:hover {
+    text-decoration: underline;
+  }
+  
   
